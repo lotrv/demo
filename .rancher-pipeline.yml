@@ -1,0 +1,7 @@
+stages:
+- name: finish
+  steps:
+  - runScriptConfig:
+      image: java:8
+      shellScript: echo 'finish.'
+timeout: 60
